@@ -1,20 +1,20 @@
 class PagesController < ApplicationController
   def home
 
-    render({ :template => "pages/home" })
+    render({ :template => "pages_templates/home" })
   end
 
   def rock
 
-    render({ :template => "pages/rock" })
+    render({ :template => "pages_templates/rock" })
   end
 
   def paper
 
-    render({ :template => "pages/paper" })
+    render({ :template => "pages_templates/paper" })
   end
 
   def scissors
 
-    render({ :template => "pages/scissors" })
+    render({ :template => "pages_templates/scissors" })
   end
